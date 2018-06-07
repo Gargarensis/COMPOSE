@@ -1,0 +1,6 @@
+servlet/data/*.csv
+servlet/out
+plugin/build
+plugin/build.gradle
+plugin/out
+

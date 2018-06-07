@@ -1,0 +1,25 @@
+{
+  "name": "thesis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "node-cmd": "^3.0.0",
+    "parse-link-header": "^1.0.1",
+    "request": "^2.85.0",
+    "rimraf": "^2.6.2",
+    "sleep": "^5.1.1",
+    "sync-mysql": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riccardo Gabriele",
+  "license": "MIT"
+}

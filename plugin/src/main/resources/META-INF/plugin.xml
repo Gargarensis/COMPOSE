@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>com.rg.thesis-plugin</id>
+    <name>Git Code</name>
+
+    <description><![CDATA[
+    <em>Git Code</em> allows to find open source code using natural language queries.
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Compose" icon="/icons/search.png" anchor="right" factoryClass="WindowFactory"/>
+        <applicationConfigurable id="compose.SettingsConfigurable" groupId="tools" displayName="Compose" instance="SettingsConfigurable" />
+        <applicationService serviceInterface="SettingsState" serviceImplementation="SettingsState"/>
+    </extensions>
+
+    <actions>
+
+    </actions>
+</idea-plugin>
