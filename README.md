@@ -17,3 +17,6 @@ To setup the plugin:
 - Build it using IntelliJ
 - Add it to IntelliJ
 - Restart the IDE
+
+# JetBrains Plugin Repository
+A request is pending to add the plugin to the list of the official IntelliJ's plugins.
