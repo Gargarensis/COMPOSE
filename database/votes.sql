@@ -25,8 +25,7 @@ DROP TABLE IF EXISTS `votes`;
 CREATE TABLE `votes` (
   `id` int(11) NOT NULL,
   `query` mediumtext NOT NULL,
-  `value` int(11) DEFAULT '0',
-  PRIMARY KEY (`id`)
+  `value` int(11) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
