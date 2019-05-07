@@ -11,9 +11,9 @@ import java.sql.SQLException;
 public class DbConnection {
 
 	public static String dbDriver = "com.mysql.jdbc.Driver";
-    	public static String dbAddress = "jdbc:mysql://localhost:8889/route”;
+    	public static String dbAddress = "jdbc:mysql://localhost:8889/route";
 	public static String dbUsername = "root";
-	public static String dbPassword = “password”;
+	public static String dbPassword = "password";
 
 	private static DbConnection datasource;
 	private BasicDataSource ds;
